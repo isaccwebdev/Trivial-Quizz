@@ -108,5 +108,5 @@ MIT License
 
 ---
 
-¡Diviértete aprendiendo sobre redes mientras juegas! 🚀
+¡Diviértete aprendiendo  mientras juegas! 🚀
 
