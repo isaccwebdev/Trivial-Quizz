@@ -1,0 +1,267 @@
+[
+  {
+    "pregunta": "¿Qué significa la sigla LAN?",
+    "opciones": ["Large Area Network", "Local Area Network", "Long Access Network"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de un switch?",
+    "opciones": ["Conectar diferentes redes", "Conectar dispositivos dentro de la misma red", "Asignar direcciones IP"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la máscara de subred por defecto de una red clase C?",
+    "opciones": ["255.0.0.0", "255.255.0.0", "255.255.255.0"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué dispositivo se utiliza para segmentar una red en múltiples subredes?",
+    "opciones": ["Switch", "Router", "Hub"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la capa del modelo OSI donde opera un router?",
+    "opciones": ["Capa 2", "Capa 3", "Capa 4"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué dirección IP se considera de loopback?",
+    "opciones": ["127.0.0.1", "192.168.1.1", "10.0.0.1"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo se utiliza para asignar direcciones IP automáticamente?",
+    "opciones": ["DNS", "DHCP", "FTP"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el rango de direcciones privadas de clase A?",
+    "opciones": ["10.0.0.0 - 10.255.255.255", "172.16.0.0 - 172.31.255.255", "192.168.0.0 - 192.168.255.255"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa NAT?",
+    "opciones": ["Network Address Translation", "Network Access Transmission", "Node Address Table"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo se usa para enviar correos electrónicos?",
+    "opciones": ["SMTP", "HTTP", "FTP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa VLAN?",
+    "opciones": ["Virtual LAN", "Virtual Link Access", "Very Large Area Network"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo resuelve nombres de dominio a direcciones IP?",
+    "opciones": ["DNS", "DHCP", "ARP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué puerto utiliza HTTP por defecto?",
+    "opciones": ["80", "443", "21"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de cable se utiliza para conectar dos switches directamente sin uplink?",
+    "opciones": ["Crossover", "Straight-through", "Coaxial"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la dirección de broadcast para la red 192.168.1.0/24?",
+    "opciones": ["192.168.1.255", "192.168.1.0", "192.168.1.1"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando de Cisco muestra la tabla ARP?",
+    "opciones": ["show arp", "show ip route", "ping"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo de enrutamiento es de tipo vector-distancia?",
+    "opciones": ["OSPF", "RIP", "EIGRP"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo de enrutamiento es de tipo estado de enlace?",
+    "opciones": ["OSPF", "RIP", "BGP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dirección MAC es válida?",
+    "opciones": ["00:1A:2B:3C:4D:5E", "256:1A:2B:3C:4D:5E", "00:1A:2B:3C:4D:5G"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando permite verificar conectividad ICMP en Cisco?",
+    "opciones": ["ping", "traceroute", "show ip interface brief"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia principal entre TCP y UDP?",
+    "opciones": ["TCP es orientado a conexión; UDP no", "UDP es orientado a conexión; TCP no", "TCP es más rápido que UDP siempre"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de estas IP pertenece a la clase B?",
+    "opciones": ["172.16.5.4", "192.168.1.1", "10.0.0.1"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo permite la resolución de direcciones IP a direcciones MAC?",
+    "opciones": ["ARP", "RARP", "DNS"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función de un firewall en una red?",
+    "opciones": ["Filtrar tráfico según reglas", "Asignar direcciones IP", "Medir velocidad de red"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué puerto usa HTTPS por defecto?",
+    "opciones": ["443", "80", "22"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dirección IPv6 representa una dirección loopback?",
+    "opciones": ["::1", "2001:db8::", "fe80::1"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de NAT traduce múltiples direcciones privadas a una sola pública?",
+    "opciones": ["PAT", "Static NAT", "Dynamic NAT"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de STP en switches?",
+    "opciones": ["Evitar bucles de red", "Asignar VLANs", "Filtrar paquetes"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando muestra la configuración actual de un router Cisco?",
+    "opciones": ["show running-config", "show startup-config", "show version"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa el protocolo ICMP?",
+    "opciones": ["Internet Control Message Protocol", "Internet Connection Management Protocol", "Internal Control Message Protocol"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el rango de puertos conocidos (Well Known Ports)?",
+    "opciones": ["0-1023", "1024-49151", "49152-65535"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué técnica permite transmitir varias VLANs por un solo enlace físico?",
+    "opciones": ["Trunking", "Access", "Aggregation"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando permite ver las interfaces activas en un switch Cisco?",
+    "opciones": ["show ip interface brief", "show running-config", "show mac address-table"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la ventaja de usar OSPF sobre RIP?",
+    "opciones": ["Convergencia más rápida", "Más fácil de configurar", "No necesita dirección IP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué estándar Wi-Fi opera en 2.4 GHz y 5 GHz simultáneamente?",
+    "opciones": ["802.11ac", "802.11b", "802.11g"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo permite sincronizar la hora entre dispositivos de red?",
+    "opciones": ["NTP", "SNMP", "FTP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la dirección de red de 192.168.10.25/28?",
+    "opciones": ["192.168.10.16", "192.168.10.0", "192.168.10.24"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué tipo de cable se utiliza normalmente para conectar un router a un switch?",
+    "opciones": ["Straight-through", "Crossover", "Coaxial"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando muestra la tabla de enrutamiento en un router Cisco?",
+    "opciones": ["show ip route", "show arp", "show mac address-table"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa ACL en redes?",
+    "opciones": ["Access Control List", "Advanced Configuration Link", "Active Connection Layer"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo permite enviar archivos de manera segura sobre SSH?",
+    "opciones": ["SCP", "FTP", "TFTP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la máscara de subred para una red con 500 hosts?",
+    "opciones": ["255.255.254.0", "255.255.252.0", "255.255.255.0"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo de capa 2 permite detectar loops en la red?",
+    "opciones": ["STP", "RIP", "OSPF"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué puerto utiliza SSH por defecto?",
+    "opciones": ["22", "23", "21"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando borra la tabla ARP en un router Cisco?",
+    "opciones": ["clear arp-cache", "clear ip route", "clear mac address-table"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el número máximo de hosts en una red /26?",
+    "opciones": ["62", "64", "126"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo de enrutamiento se utiliza para Internet a gran escala?",
+    "opciones": ["BGP", "OSPF", "RIP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué protocolo de administración de red utiliza la comunidad como contraseña?",
+    "opciones": ["SNMP", "NTP", "DHCP"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función del protocolo ARP?",
+    "opciones": ["Resolver direcciones IP a MAC", "Resolver nombres de dominio", "Asignar direcciones IP dinámicas"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dirección IPv4 es de enlace local?",
+    "opciones": ["169.254.0.1", "192.168.1.1", "10.0.0.1"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué estándar define el uso de PoE en switches?",
+    "opciones": ["IEEE 802.3af", "IEEE 802.11ac", "IEEE 802.1Q"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el rango de direcciones IP privadas de clase C?",
+    "opciones": ["192.168.0.0 - 192.168.255.255", "172.16.0.0 - 172.31.255.255", "10.0.0.0 - 10.255.255.255"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando permite copiar la configuración de un router Cisco a la memoria de inicio?",
+    "opciones": ["copy running-config startup-config", "copy startup-config running-config", "write erase"],
+    "correcta": 0
+  }
+]
