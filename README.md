@@ -6,6 +6,7 @@ Un juego de preguntas tipo quiz donde puedes aprender y practicar sobre **El tem
 
 El juego lee las preguntas desde un archivo JSON, ¡así que puedes crear tus propios cuestionarios sin tocar el código!
 
+[Markdown Live Preview](https://isaccwebdev.github.io/Trivial-Quizz/).
 ---
 
 ## 🎯 Características
@@ -29,10 +30,9 @@ project-root/
 │
 ├─ public/
 │   └─ index.html           # Interfaz web del juego
+    ├─ main.js              # Lógica del juego
+│   └─ main.css             # Estilos del juego           
 │
-├─ src/
-│   ├─ main.js              # Lógica del juego
-│   └─ main.css             # Estilos del juego
 │
 └─ README.md                # Este archivo
 
@@ -76,7 +76,7 @@ En local:
 5. Al finalizar, verás tu **puntaje final**.
 
 Online:
-La opcion mas comoda, pega el url del json en el campo url, asegurandote de copiar el raw de github
+La opcion mas comoda, pega el url del json en el campo url, asegurandote de copiar del raw de github
 ---
 
 ## ✨ Personalización
